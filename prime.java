@@ -1,13 +1,13 @@
 public class prime{
 public static void main(String[] args){
-for(int i=2;i<=50;i++){
+for(int i=2;i<=100;i++){
 if(isPrime(i)){
 System.out.println(i+" ");
 }
 }
 }
 public static boolean isPrime(int n){
-if(n<=10){
+if(n<=1){
 return false;
 }
 for(int i=2;i<=Math.sqrt(n);i++){
